@@ -1,0 +1,50 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("img/backround.PNG");
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.registreren{
+    padding: 20px;
+    top: 20% ;
+    position: relative;
+}
+.inloggen{
+     padding: 20px;
+     top: 25% ;
+     position: relative;
+ }
+
+
+@media only screen and (max-width: 576px) {
+    body{
+        background-image: url("img/music app mobile (1).PNG");
+    }
+
+
+}
+
+
+/*Home page --------------------------------------------*/
+.home{
+    position: fixed;
+    top:55%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+.uitloggen{
+    font-size:48px;
+    color:red;
+    float: right;
+    margin-right: 20px;
+}
+.uitloggen:hover{
+    border: 1px solid blue;
+
+}
